@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="446.0" prefWidth="770.0" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="client.Userpurchases">
+   <children>
+      <TableView fx:id="tableView" prefHeight="446.0" prefWidth="770.0">
+        <columns>
+          <TableColumn fx:id="jouneyDate" prefWidth="117.60000765323639" text="Journey Date" />
+          <TableColumn fx:id="agency" minWidth="4.8" prefWidth="162.40001678466797" text="Agency" />
+            <TableColumn fx:id="time" prefWidth="88.79998779296875" text="Time" />
+            <TableColumn fx:id="from" prefWidth="109.5999755859375" text="From" />
+            <TableColumn fx:id="to" prefWidth="112.00003051757812" text="To" />
+            <TableColumn fx:id="noTicket" prefWidth="103.199951171875" text="No. of Tickets" />
+            <TableColumn fx:id="fare" prefWidth="79.199951171875" text="Fare " />
+        </columns>
+      </TableView>
+   </children>
+</AnchorPane>

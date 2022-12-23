@@ -1,0 +1,8 @@
+Dhaka#Rajshahi#National Travels#HA121#10.00#Kallayanpur#Terminal#Non-AC#480#16.30#rittik#
+Dhaka#Chittagong#Green Line#KHA512#8.30#Sayedabad#Station#AC#480#16.30#rittik#
+Dhaka#Rajshahi#Desh Travels#GHA343#9.00#Mohakhali#Terminal#Non-AC#480#15.30#rittik#
+Dhaka#Rajshahi#Grameen Travels#BA836#11.00#Kallyanpur#Terminal#AC#1000#19.30#rittik#
+Dhaka#Sylhet#Ena#NP954#19.30#Gabtoli#Bus Stand#Non-Ac#750#06.30#rittik#
+Rajshahi#Dhaka#Tuhin Paribahan#HA877#9.30#Terminal#Technical#Non-AC#480#16.00#rittik#
+Sylhet#Dhaka#Eagle#GA1238#2.00#Bus Terminal#Sayedabad#Non-AC#650#23.00#rittik#
+Comilla#Sylhet#Hanif#TA09897#8.30#Terminal#Central Bus Stand#Non-AC#550#17.00#rittik#

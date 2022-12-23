@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="446.0" prefWidth="770.0" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="client.AdminDashboard">
+   <children>
+      <TableView fx:id="tableView" layoutY="31.0" onMouseClicked="#mouseClick" prefHeight="390.0" prefWidth="771.0">
+         <columns>
+            <TableColumn fx:id="coachNo" prefWidth="97.59997403621674" text="Coach No" />
+            <TableColumn fx:id="date" prefWidth="104.8000717163086" text="Date" />
+            <TableColumn fx:id="from" prefWidth="136.7999267578125" text="From" />
+            <TableColumn fx:id="to" prefWidth="101.5999755859375" text="To" />
+            <TableColumn fx:id="fare" prefWidth="103.19998168945312" text="Fare" />
+            <TableColumn fx:id="seatsSold" prefWidth="96.0" text="Seats Sold" />
+            <TableColumn fx:id="income" prefWidth="127.199951171875" text="Income" />
+         </columns>
+      </TableView>
+      <Label layoutX="555.0" layoutY="421.0" prefHeight="30.0" prefWidth="90.0" text="Total Income:" />
+      <Label fx:id="label" alignment="CENTER" layoutX="645.0" layoutY="421.0" prefHeight="30.0" prefWidth="114.0" />
+      <DatePicker fx:id="fromDate" layoutX="34.0" layoutY="1.0" promptText="From" />
+      <DatePicker fx:id="tillDate" layoutX="232.0" layoutY="1.0" promptText="Till" />
+      <Button fx:id="filter" layoutX="433.0" layoutY="1.0" mnemonicParsing="false" onAction="#onActionFilter" prefHeight="26.0" prefWidth="101.0" text="Filter" />
+      <Button fx:id="viewAll" layoutX="563.0" layoutY="1.0" mnemonicParsing="false" onAction="#onActionViewAll" prefHeight="26.0" prefWidth="102.0" text="View All" />
+   </children>
+</AnchorPane>
